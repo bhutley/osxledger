@@ -19,6 +19,7 @@
 		8BF78028142B850A00A37BE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BF78026142B850A00A37BE3 /* InfoPlist.strings */; };
 		8BF7802A142B850A00A37BE3 /* osxledgerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8BF78029142B850A00A37BE3 /* osxledgerTests.h */; };
 		8BF7802C142B850A00A37BE3 /* osxledgerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7802B142B850A00A37BE3 /* osxledgerTests.m */; };
+		8BF78036142B856B00A37BE3 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 8BF78035142B856B00A37BE3 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +38,22 @@
 		8BF78000142B850A00A37BE3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
 		8BF78001142B850A00A37BE3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		8BF78002142B850A00A37BE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		8BF78005142B850A00A37BE3 /* osxledger-Info.plist */ = {isa = PBXFileReference; path = "osxledger-Info.plist"; sourceTree = "<group>"; };
+		8BF78005142B850A00A37BE3 /* osxledger-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "osxledger-Info.plist"; sourceTree = "<group>"; };
 		8BF78007142B850A00A37BE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8BF78009142B850A00A37BE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		8BF7800B142B850A00A37BE3 /* osxledger-Prefix.pch */ = {isa = PBXFileReference; path = "osxledger-Prefix.pch"; sourceTree = "<group>"; };
+		8BF7800B142B850A00A37BE3 /* osxledger-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "osxledger-Prefix.pch"; sourceTree = "<group>"; };
 		8BF7800D142B850A00A37BE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		8BF7800F142B850A00A37BE3 /* LedgerFile.h */ = {isa = PBXFileReference; path = LedgerFile.h; sourceTree = "<group>"; };
+		8BF7800F142B850A00A37BE3 /* LedgerFile.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LedgerFile.h; sourceTree = "<group>"; };
 		8BF78010142B850A00A37BE3 /* LedgerFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LedgerFile.m; sourceTree = "<group>"; };
 		8BF78013142B850A00A37BE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LedgerFile.xib; sourceTree = "<group>"; };
 		8BF78016142B850A00A37BE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		8BF7801D142B850A00A37BE3 /* osxledgerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = osxledgerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BF7801E142B850A00A37BE3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		8BF78025142B850A00A37BE3 /* osxledgerTests-Info.plist */ = {isa = PBXFileReference; path = "osxledgerTests-Info.plist"; sourceTree = "<group>"; };
+		8BF78025142B850A00A37BE3 /* osxledgerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "osxledgerTests-Info.plist"; sourceTree = "<group>"; };
 		8BF78027142B850A00A37BE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8BF78029142B850A00A37BE3 /* osxledgerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = osxledgerTests.h; sourceTree = "<group>"; };
 		8BF7802B142B850A00A37BE3 /* osxledgerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osxledgerTests.m; sourceTree = "<group>"; };
+		8BF78035142B856B00A37BE3 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -122,6 +124,7 @@
 				8BF78012142B850A00A37BE3 /* LedgerFile.xib */,
 				8BF78015142B850A00A37BE3 /* MainMenu.xib */,
 				8BF78004142B850A00A37BE3 /* Supporting Files */,
+				8BF78035142B856B00A37BE3 /* README */,
 			);
 			path = osxledger;
 			sourceTree = "<group>";
@@ -231,6 +234,7 @@
 				8BF7800E142B850A00A37BE3 /* Credits.rtf in Resources */,
 				8BF78014142B850A00A37BE3 /* LedgerFile.xib in Resources */,
 				8BF78017142B850A00A37BE3 /* MainMenu.xib in Resources */,
+				8BF78036142B856B00A37BE3 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
