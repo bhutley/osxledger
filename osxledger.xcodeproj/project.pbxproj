@@ -1,0 +1,462 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8BF77FFE142B850A00A37BE3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF77FFD142B850A00A37BE3 /* Cocoa.framework */; };
+		8BF78008142B850A00A37BE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BF78006142B850A00A37BE3 /* InfoPlist.strings */; };
+		8BF7800A142B850A00A37BE3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF78009142B850A00A37BE3 /* main.m */; };
+		8BF7800E142B850A00A37BE3 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 8BF7800C142B850A00A37BE3 /* Credits.rtf */; };
+		8BF78011142B850A00A37BE3 /* LedgerFile.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF78010142B850A00A37BE3 /* LedgerFile.m */; };
+		8BF78014142B850A00A37BE3 /* LedgerFile.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF78012142B850A00A37BE3 /* LedgerFile.xib */; };
+		8BF78017142B850A00A37BE3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8BF78015142B850A00A37BE3 /* MainMenu.xib */; };
+		8BF7801F142B850A00A37BE3 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF7801E142B850A00A37BE3 /* SenTestingKit.framework */; };
+		8BF78020142B850A00A37BE3 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BF77FFD142B850A00A37BE3 /* Cocoa.framework */; };
+		8BF78028142B850A00A37BE3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8BF78026142B850A00A37BE3 /* InfoPlist.strings */; };
+		8BF7802A142B850A00A37BE3 /* osxledgerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8BF78029142B850A00A37BE3 /* osxledgerTests.h */; };
+		8BF7802C142B850A00A37BE3 /* osxledgerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7802B142B850A00A37BE3 /* osxledgerTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8BF78021142B850A00A37BE3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BF77FF0142B850A00A37BE3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8BF77FF8142B850A00A37BE3;
+			remoteInfo = osxledger;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8BF77FF9142B850A00A37BE3 /* osxledger.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = osxledger.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF77FFD142B850A00A37BE3 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		8BF78000142B850A00A37BE3 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		8BF78001142B850A00A37BE3 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		8BF78002142B850A00A37BE3 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		8BF78005142B850A00A37BE3 /* osxledger-Info.plist */ = {isa = PBXFileReference; path = "osxledger-Info.plist"; sourceTree = "<group>"; };
+		8BF78007142B850A00A37BE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BF78009142B850A00A37BE3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8BF7800B142B850A00A37BE3 /* osxledger-Prefix.pch */ = {isa = PBXFileReference; path = "osxledger-Prefix.pch"; sourceTree = "<group>"; };
+		8BF7800D142B850A00A37BE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		8BF7800F142B850A00A37BE3 /* LedgerFile.h */ = {isa = PBXFileReference; path = LedgerFile.h; sourceTree = "<group>"; };
+		8BF78010142B850A00A37BE3 /* LedgerFile.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LedgerFile.m; sourceTree = "<group>"; };
+		8BF78013142B850A00A37BE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/LedgerFile.xib; sourceTree = "<group>"; };
+		8BF78016142B850A00A37BE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		8BF7801D142B850A00A37BE3 /* osxledgerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = osxledgerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8BF7801E142B850A00A37BE3 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		8BF78025142B850A00A37BE3 /* osxledgerTests-Info.plist */ = {isa = PBXFileReference; path = "osxledgerTests-Info.plist"; sourceTree = "<group>"; };
+		8BF78027142B850A00A37BE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		8BF78029142B850A00A37BE3 /* osxledgerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = osxledgerTests.h; sourceTree = "<group>"; };
+		8BF7802B142B850A00A37BE3 /* osxledgerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osxledgerTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8BF77FF6142B850A00A37BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF77FFE142B850A00A37BE3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF78019142B850A00A37BE3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF7801F142B850A00A37BE3 /* SenTestingKit.framework in Frameworks */,
+				8BF78020142B850A00A37BE3 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8BF77FEE142B850A00A37BE3 = {
+			isa = PBXGroup;
+			children = (
+				8BF78003142B850A00A37BE3 /* osxledger */,
+				8BF78023142B850A00A37BE3 /* osxledgerTests */,
+				8BF77FFC142B850A00A37BE3 /* Frameworks */,
+				8BF77FFA142B850A00A37BE3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8BF77FFA142B850A00A37BE3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8BF77FF9142B850A00A37BE3 /* osxledger.app */,
+				8BF7801D142B850A00A37BE3 /* osxledgerTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8BF77FFC142B850A00A37BE3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BF77FFD142B850A00A37BE3 /* Cocoa.framework */,
+				8BF7801E142B850A00A37BE3 /* SenTestingKit.framework */,
+				8BF77FFF142B850A00A37BE3 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8BF77FFF142B850A00A37BE3 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8BF78000142B850A00A37BE3 /* AppKit.framework */,
+				8BF78001142B850A00A37BE3 /* CoreData.framework */,
+				8BF78002142B850A00A37BE3 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		8BF78003142B850A00A37BE3 /* osxledger */ = {
+			isa = PBXGroup;
+			children = (
+				8BF7800F142B850A00A37BE3 /* LedgerFile.h */,
+				8BF78010142B850A00A37BE3 /* LedgerFile.m */,
+				8BF78012142B850A00A37BE3 /* LedgerFile.xib */,
+				8BF78015142B850A00A37BE3 /* MainMenu.xib */,
+				8BF78004142B850A00A37BE3 /* Supporting Files */,
+			);
+			path = osxledger;
+			sourceTree = "<group>";
+		};
+		8BF78004142B850A00A37BE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BF78005142B850A00A37BE3 /* osxledger-Info.plist */,
+				8BF78006142B850A00A37BE3 /* InfoPlist.strings */,
+				8BF78009142B850A00A37BE3 /* main.m */,
+				8BF7800B142B850A00A37BE3 /* osxledger-Prefix.pch */,
+				8BF7800C142B850A00A37BE3 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BF78023142B850A00A37BE3 /* osxledgerTests */ = {
+			isa = PBXGroup;
+			children = (
+				8BF78029142B850A00A37BE3 /* osxledgerTests.h */,
+				8BF7802B142B850A00A37BE3 /* osxledgerTests.m */,
+				8BF78024142B850A00A37BE3 /* Supporting Files */,
+			);
+			path = osxledgerTests;
+			sourceTree = "<group>";
+		};
+		8BF78024142B850A00A37BE3 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8BF78025142B850A00A37BE3 /* osxledgerTests-Info.plist */,
+				8BF78026142B850A00A37BE3 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8BF77FF8142B850A00A37BE3 /* osxledger */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF7802F142B850A00A37BE3 /* Build configuration list for PBXNativeTarget "osxledger" */;
+			buildPhases = (
+				8BF77FF5142B850A00A37BE3 /* Sources */,
+				8BF77FF6142B850A00A37BE3 /* Frameworks */,
+				8BF77FF7142B850A00A37BE3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = osxledger;
+			productName = osxledger;
+			productReference = 8BF77FF9142B850A00A37BE3 /* osxledger.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8BF7801C142B850A00A37BE3 /* osxledgerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8BF78032142B850A00A37BE3 /* Build configuration list for PBXNativeTarget "osxledgerTests" */;
+			buildPhases = (
+				8BF78018142B850A00A37BE3 /* Sources */,
+				8BF78019142B850A00A37BE3 /* Frameworks */,
+				8BF7801A142B850A00A37BE3 /* Resources */,
+				8BF7801B142B850A00A37BE3 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8BF78022142B850A00A37BE3 /* PBXTargetDependency */,
+			);
+			name = osxledgerTests;
+			productName = osxledgerTests;
+			productReference = 8BF7801D142B850A00A37BE3 /* osxledgerTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8BF77FF0142B850A00A37BE3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = "Stimuli Limited";
+			};
+			buildConfigurationList = 8BF77FF3142B850A00A37BE3 /* Build configuration list for PBXProject "osxledger" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8BF77FEE142B850A00A37BE3;
+			productRefGroup = 8BF77FFA142B850A00A37BE3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8BF77FF8142B850A00A37BE3 /* osxledger */,
+				8BF7801C142B850A00A37BE3 /* osxledgerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8BF77FF7142B850A00A37BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF78008142B850A00A37BE3 /* InfoPlist.strings in Resources */,
+				8BF7800E142B850A00A37BE3 /* Credits.rtf in Resources */,
+				8BF78014142B850A00A37BE3 /* LedgerFile.xib in Resources */,
+				8BF78017142B850A00A37BE3 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF7801A142B850A00A37BE3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF78028142B850A00A37BE3 /* InfoPlist.strings in Resources */,
+				8BF7802A142B850A00A37BE3 /* osxledgerTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8BF7801B142B850A00A37BE3 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8BF77FF5142B850A00A37BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF7800A142B850A00A37BE3 /* main.m in Sources */,
+				8BF78011142B850A00A37BE3 /* LedgerFile.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BF78018142B850A00A37BE3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BF7802C142B850A00A37BE3 /* osxledgerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8BF78022142B850A00A37BE3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8BF77FF8142B850A00A37BE3 /* osxledger */;
+			targetProxy = 8BF78021142B850A00A37BE3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8BF78006142B850A00A37BE3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF78007142B850A00A37BE3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		8BF7800C142B850A00A37BE3 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF7800D142B850A00A37BE3 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		8BF78012142B850A00A37BE3 /* LedgerFile.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF78013142B850A00A37BE3 /* en */,
+			);
+			name = LedgerFile.xib;
+			sourceTree = "<group>";
+		};
+		8BF78015142B850A00A37BE3 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF78016142B850A00A37BE3 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		8BF78026142B850A00A37BE3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8BF78027142B850A00A37BE3 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8BF7802D142B850A00A37BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		8BF7802E142B850A00A37BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		8BF78030142B850A00A37BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osxledger/osxledger-Prefix.pch";
+				INFOPLIST_FILE = "osxledger/osxledger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		8BF78031142B850A00A37BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osxledger/osxledger-Prefix.pch";
+				INFOPLIST_FILE = "osxledger/osxledger-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		8BF78033142B850A00A37BE3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/osxledger.app/Contents/MacOS/osxledger";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osxledger/osxledger-Prefix.pch";
+				INFOPLIST_FILE = "osxledgerTests/osxledgerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		8BF78034142B850A00A37BE3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/osxledger.app/Contents/MacOS/osxledger";
+				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "osxledger/osxledger-Prefix.pch";
+				INFOPLIST_FILE = "osxledgerTests/osxledgerTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8BF77FF3142B850A00A37BE3 /* Build configuration list for PBXProject "osxledger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF7802D142B850A00A37BE3 /* Debug */,
+				8BF7802E142B850A00A37BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8BF7802F142B850A00A37BE3 /* Build configuration list for PBXNativeTarget "osxledger" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF78030142B850A00A37BE3 /* Debug */,
+				8BF78031142B850A00A37BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8BF78032142B850A00A37BE3 /* Build configuration list for PBXNativeTarget "osxledgerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8BF78033142B850A00A37BE3 /* Debug */,
+				8BF78034142B850A00A37BE3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8BF77FF0142B850A00A37BE3 /* Project object */;
+}
