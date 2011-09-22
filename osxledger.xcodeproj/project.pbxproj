@@ -20,6 +20,9 @@
 		8BF7802A142B850A00A37BE3 /* osxledgerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 8BF78029142B850A00A37BE3 /* osxledgerTests.h */; };
 		8BF7802C142B850A00A37BE3 /* osxledgerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7802B142B850A00A37BE3 /* osxledgerTests.m */; };
 		8BF78036142B856B00A37BE3 /* README in Resources */ = {isa = PBXBuildFile; fileRef = 8BF78035142B856B00A37BE3 /* README */; };
+		8BF7803E142B8E8200A37BE3 /* LedgerEntry.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF7803D142B8E8200A37BE3 /* LedgerEntry.m */; };
+		8BF78042142B918F00A37BE3 /* AccountAllocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF78041142B918F00A37BE3 /* AccountAllocation.m */; };
+		8BF78045142B93B800A37BE3 /* Ledger.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BF78044142B93B800A37BE3 /* Ledger.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,12 @@
 		8BF78029142B850A00A37BE3 /* osxledgerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = osxledgerTests.h; sourceTree = "<group>"; };
 		8BF7802B142B850A00A37BE3 /* osxledgerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osxledgerTests.m; sourceTree = "<group>"; };
 		8BF78035142B856B00A37BE3 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
+		8BF7803C142B8E8200A37BE3 /* LedgerEntry.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LedgerEntry.h; sourceTree = "<group>"; };
+		8BF7803D142B8E8200A37BE3 /* LedgerEntry.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LedgerEntry.m; sourceTree = "<group>"; };
+		8BF78040142B918F00A37BE3 /* AccountAllocation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AccountAllocation.h; sourceTree = "<group>"; };
+		8BF78041142B918F00A37BE3 /* AccountAllocation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AccountAllocation.m; sourceTree = "<group>"; };
+		8BF78043142B93B800A37BE3 /* Ledger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ledger.h; sourceTree = "<group>"; };
+		8BF78044142B93B800A37BE3 /* Ledger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ledger.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -120,6 +129,7 @@
 		8BF78003142B850A00A37BE3 /* osxledger */ = {
 			isa = PBXGroup;
 			children = (
+				8BF7803F142B916300A37BE3 /* Model */,
 				8BF7800F142B850A00A37BE3 /* LedgerFile.h */,
 				8BF78010142B850A00A37BE3 /* LedgerFile.m */,
 				8BF78012142B850A00A37BE3 /* LedgerFile.xib */,
@@ -158,6 +168,19 @@
 				8BF78026142B850A00A37BE3 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8BF7803F142B916300A37BE3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8BF7803C142B8E8200A37BE3 /* LedgerEntry.h */,
+				8BF7803D142B8E8200A37BE3 /* LedgerEntry.m */,
+				8BF78040142B918F00A37BE3 /* AccountAllocation.h */,
+				8BF78041142B918F00A37BE3 /* AccountAllocation.m */,
+				8BF78043142B93B800A37BE3 /* Ledger.h */,
+				8BF78044142B93B800A37BE3 /* Ledger.m */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -272,6 +295,9 @@
 			files = (
 				8BF7800A142B850A00A37BE3 /* main.m in Sources */,
 				8BF78011142B850A00A37BE3 /* LedgerFile.m in Sources */,
+				8BF7803E142B8E8200A37BE3 /* LedgerEntry.m in Sources */,
+				8BF78042142B918F00A37BE3 /* AccountAllocation.m in Sources */,
+				8BF78045142B93B800A37BE3 /* Ledger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

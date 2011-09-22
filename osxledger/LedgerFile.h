@@ -9,6 +9,11 @@
 #import <Cocoa/Cocoa.h>
 
 @interface LedgerFile : NSDocument {
+    NSComboBox *cbAccounts_;
+    NSTableView *tbEntries_;
 }
+
+@property (nonatomic, retain) IBOutlet NSComboBox *cbAccounts;
+@property (nonatomic, retain) IBOutlet NSTableView *tbEntries;
 
 @end

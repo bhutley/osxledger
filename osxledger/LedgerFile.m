@@ -10,6 +10,9 @@
 
 @implementation LedgerFile
 
+@synthesize cbAccounts = cbAccounts_;
+@synthesize tbEntries = tbEntries_;
+
 - (id)init
 {
     self = [super init];
@@ -18,6 +21,13 @@
         // If an error occurs here, send a [self release] message and return nil.
     }
     return self;
+}
+
+- (void) dealloc
+{
+    [cbAccounts_ release];
+    [tbEntries_ release];
+    [super dealloc];
 }
 
 - (NSString *)windowNibName
