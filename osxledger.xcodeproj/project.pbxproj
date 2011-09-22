@@ -53,7 +53,7 @@
 		8BF78027142B850A00A37BE3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		8BF78029142B850A00A37BE3 /* osxledgerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = osxledgerTests.h; sourceTree = "<group>"; };
 		8BF7802B142B850A00A37BE3 /* osxledgerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = osxledgerTests.m; sourceTree = "<group>"; };
-		8BF78035142B856B00A37BE3 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
+		8BF78035142B856B00A37BE3 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = README; path = osxledger/README; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +80,7 @@
 		8BF77FEE142B850A00A37BE3 = {
 			isa = PBXGroup;
 			children = (
+				8BF78035142B856B00A37BE3 /* README */,
 				8BF78003142B850A00A37BE3 /* osxledger */,
 				8BF78023142B850A00A37BE3 /* osxledgerTests */,
 				8BF77FFC142B850A00A37BE3 /* Frameworks */,
@@ -124,7 +125,6 @@
 				8BF78012142B850A00A37BE3 /* LedgerFile.xib */,
 				8BF78015142B850A00A37BE3 /* MainMenu.xib */,
 				8BF78004142B850A00A37BE3 /* Supporting Files */,
-				8BF78035142B856B00A37BE3 /* README */,
 			);
 			path = osxledger;
 			sourceTree = "<group>";
